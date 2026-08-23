@@ -291,6 +291,11 @@
     border-top: 1px solid var(--line);
     align-items: start;
   }
+  .github {
+    gap: 42px;
+    padding: 42px 0;
+    border-top: 1px solid var(--line);
+  }
   .project:first-of-type { border-top: none; padding-top: 0; }
   @media (max-width: 780px) {
     .project { grid-template-columns: 1fr; }
@@ -403,14 +408,26 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 38px; height: 38px;
+    width: 44px; height: 44px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    flex-shrink: 0;
+    transition: border-color 0.15s ease;
+  }
+  .second-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto 0;
+    width: 44px; height: 44px;
     border: 1px solid var(--line);
     border-radius: var(--radius);
     flex-shrink: 0;
     transition: border-color 0.15s ease;
   }
   .icon-link:hover { border-color: var(--accent); }
-  .icon-link img { width: 17px; height: 17px; display: block; }
+  .icon-link img { width: 40px; height: 40px; display: block; }
+  .second-icon-link img { width: 35px; height: 35px; display: block; }
 
   /* ---------- Experience / Education ---------- */
   .entry {
