@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jarod Kraven Manikan — Computer Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">JKRM<span>.</span></div>
+    <nav>
+      <a class="navlink" href="#about">about</a>
+      <a class="navlink" href="#skills">skills</a>
+      <a class="navlink" href="#projects">projects</a>
+      <a class="navlink" href="#experience">experience</a>
+      <a class="navlink" href="#education">education</a>
+      <a class="navlink always" href="#contact">contact</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <div class="tag">computer engineer / hardware &amp; embedded systems</div>
+        <h1>Jarod Kraven Manikan</h1>
+        <p class="role">Fresh graduate Computer Engineer focused on <strong>embedded systems, IoT, and power electronics</strong> — I build hardware that solves real, physical problems, from water purification rigs to custom power supplies.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn ghost" href="mailto:jkrmanikan@gmail.com">Get in touch</a>
+          <a class="btn ghost" href="Media/Resume.pdf" id="resumeLink">Download résumé</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-photo">
+          <img src="Media/profile.png" alt="Jarod Kraven Manikan" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="photo-placeholder">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-meta">
+      <div><strong>National University</strong>BS Computer Engineering, 2026</div>
+      <div><strong>Ivoclar Vivadent Inc.</strong>IT Service Delivery Intern</div>
+      <div><strong>IEEE Xplore</strong>Co-author, ICECCO 2026</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="eyebrow">01 — about</div>
+    <h2 class="section-title">Grounded in hardware, comfortable in code.</h2>
+    <div class="about-grid">
+      <p>I'm a Computer Engineering graduate from National University Calamba, with coursework in embedded systems, microprocessors, and cybersecurity. While I can move through a codebase, I'm at my best in front of a breadboard, oscilloscope, or PCB layout — <strong>designing, testing, and debugging physical systems</strong> is what pulls me in.</p>
+      <p>My project work spans IoT-based environmental systems, power electronics, and automated sensing — often built for a real end-user, like the Aeta community water purification system validated against Philippine DENR drinking water standards. Alongside that, I completed an IT internship at Ivoclar Vivadent, where I worked hands-on with hardware maintenance, network troubleshooting, and internal tooling.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="eyebrow">02 — skills</div>
+    <h2 class="section-title">Toolkit</h2>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h3>Hardware</h3>
+        <div class="chip-row">
+          <span class="chip">Arduino</span><span class="chip">Raspberry Pi</span><span class="chip">PCB Design</span><span class="chip">Logic Design</span><span class="chip">Microcontrollers</span><span class="chip">Oscilloscope</span><span class="chip">PLC</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Programming</h3>
+        <div class="chip-row">
+          <span class="chip">C++</span><span class="chip">Python</span><span class="chip">Java</span><span class="chip">JavaScript</span><span class="chip">MATLAB</span><span class="chip">Verilog</span><span class="chip">HTML/CSS</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Software &amp; EDA</h3>
+        <div class="chip-row">
+          <span class="chip">AutoCAD</span><span class="chip">Proteus</span><span class="chip">Multisim</span><span class="chip">VS Code</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>IT &amp; Support</h3>
+        <div class="chip-row">
+          <span class="chip">Networking</span><span class="chip">Troubleshooting</span><span class="chip">Computer Servicing</span><span class="chip">ServiceNow</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="eyebrow">03 — projects</div>
+    <h2 class="section-title">Selected work</h2>
+
+    <div class="project">
+      <div class="project-media">
+        <div class="slider" data-slider>
+          <div class="slide active">
+            <img src="Media/Project1/Project1_1.png" alt="Rainwater purification system — photo 1">
+          </div>
+          <div class="slide">
+            <img src="Media/Project1/Project1_2.jpg" alt="Rainwater purification system — photo 2">
+          </div>
+          <div class="slide">
+            <img src="Media/Project1/Project1_3.png" alt="Rainwater purification system — photo 3">
+          </div>
+          <button class="slider-arrow prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button class="slider-arrow next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+          <div class="slider-nav"></div>
+        </div>
+        <div class="project-links">
+          <a class="btn ghost paper-link" href="https://ieeexplore.ieee.org/document/11488830" target="_blank" rel="noopener">View paper on IEEE Xplore ↗</a>
+          <a class="icon-link" href="https://www.facebook.com/100069172963257/posts/1367777608871325/" target="_blank" rel="noopener" aria-label="View project post on Facebook">
+            <img src="Media/Facebook.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="idx">01</div>
+        <h3>Development of AI-Based Rainwater Purification System for Aeta Community</h3>
+        <div class="period">Mar 2025 — Apr 2026</div>
+        <p class="project-intro">Many families in the Aeta community of Barangay Milagrosa rely on water sources that aren't reliably safe, especially during rainy season. 
+          This project built a solar-powered system that treats rainwater through multimedia filtration, UV disinfection, 
+          and reverse osmosis, then checks its own work, a Raspberry Pi 5 and it reads pH, turbidity, and TDS in real time and runs a machine learning model to classify whether 
+          the output is actually safe to drink, all shown on a local dashboard that works without internet.</p>
+        <p class="project-intro">We validated it with a DENR-accredited lab using real rainwater samples. 
+          The results were the clearest proof it worked, color dropped from 25 CU down to 1 CU, and the treated water passed every parameter in the Philippine National Standards for Drinking Water, including zero detectable E. coli. 
+          It was a strong first check that a compact, well-designed system can deliver genuinely safe water in places without steady power or piped infrastructure.</p>
+        <div class="project-tags">
+          <span class="chip">Raspberry Pi 5</span><span class="chip">IoT</span><span class="chip">Machine Learning</span><span class="chip">Sensors</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-media">
+        <div class="slider" data-slider>
+          <div class="slide active">
+            <img src="Media/Project2/Project2_1.png" alt="Peltier atmospheric water generator — photo 1">
+          </div>
+          <div class="slide">
+            <img src="Media/Project2/Project2_2.jpg" alt="Peltier atmospheric water generator — photo 2">
+          </div>
+          <div class="slide">
+            <img src="Media/Project2/Project2_3.jpg" alt="Peltier atmospheric water generator — photo 3">
+          </div>
+          <button class="slider-arrow prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button class="slider-arrow next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+          <div class="slider-nav"></div>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="idx">02</div>
+        <h3>Peltier-Based Atmospheric Water Generator</h3>
+        <div class="period">Nov 2024 — Mar 2025</div>
+        <p class="project-intro">Instead of purifying an existing water source, this project asked a different question: could you pull drinkable water straight out of humid air? 
+          We built a device that cools air below its dew point using Peltier modules and a copper coil, condensing water vapor into liquid, 
+          then runs that water through carbon filtration, UV treatment, and pH/turbidity/TDS sensing before it's approved for storage.</p>
+        <p class="project-intro">Getting there took real troubleshooting. Our first integration test showed the water harvesting stage wasn't producing enough, 
+          we solved it by adding a second Peltier module for extra cooling capacity. We also had leakage in the water processing stage, 
+          fixed with better sealant and hose clamps. After those fixes, every subsystem like harvesting, filtration, water quality sensing, and environmental monitoring tested successfully as an integrated system.</p>
+        <div class="project-tags">
+          <span class="chip">Arduino UNO</span><span class="chip">ESP8266</span><span class="chip">Peltier Modules</span><span class="chip">Automation</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-media">
+        <div class="slider" data-slider>
+          <div class="slide active">
+            <img src="Media/Project4/Project4_1.jpg" alt="Peltier atmospheric water generator — photo 1">
+          </div>
+          <div class="slide">
+            <img src="Media/Project4/Project4_2.jpg" alt="Peltier atmospheric water generator — photo 2">
+          </div>
+          <div class="slide">
+            <img src="Media/Project4/Project4_3.jpg" alt="Peltier atmospheric water generator — photo 3">
+          </div>
+          <div class="slide">
+            <img src="Media/Project4/Project4_4.png" alt="Peltier atmospheric water generator — photo 4">
+          </div>
+          <div class="slide">
+            <img src="Media/Project4/Project4_5.png" alt="Peltier atmospheric water generator — photo 5">
+          </div>
+          <div class="slide">
+            <img src="Media/Project4/Project4_3.jpg" alt="Peltier atmospheric water generator — photo 6">
+          </div>
+          <button class="slider-arrow prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button class="slider-arrow next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+          <div class="slider-nav"></div>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="idx">03</div>
+        <h3>24-Hour Digital Logic Clock</h3>
+        <div class="period">Jun 2024</div>
+        <p class="project-intro">Rather than relying on modern microcontrollers, this project explored the fundamentals of digital circuitry by building a functional clock using only discrete logic gates and synchronous decade counters. 
+          We designed a digital timekeeping device that accurately measures hours, minutes, and seconds, automatically resetting after a full 24-hour cycle. 
+          The hardware architecture uses a CD4060 IC oscillator to generate the timing pulses, cascaded 74LS90 decade counters to process the time logic, and 7447 BCD-to-7-segment decoders to drive the LED displays.</p>
+        <p class="project-intro">Moving the design from Circuit Wizard to a physical product required significant troubleshooting during the manufacturing stage. Our biggest hurdle was the pre-sensitized PCB fabrication, early development attempts resulted in broken circuit traces, 
+          forcing us to iterate on our process multiple times to successfully etch a clean board. We also had to adapt our hardware design on the fly due to supply limitations, adjusting our plans when our preferred 4-inch cathode displays were unavailable. 
+          Ultimately, careful attention to IC pin configurations and rigorous continuity testing resulted in a perfectly integrated, functional digital clock.</p>
+        <div class="project-tags">
+          <span class="chip">Logic Design</span><span class="chip">PCB Design</span><span class="chip">74LS90 / CD4060</span><span class="chip">Circuit Wizard</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-media">
+        <div class="slider" data-slider>
+          <div class="slide active">
+            <img src="Media/Project3/Project3_1.png" alt="AC/DC power supply PCB — photo 1">
+          </div>
+          <div class="slide">
+            <img src="Media/Project3/Project3_2.png" alt="AC/DC power supply PCB — photo 2">
+          </div>
+          <div class="slide">
+            <img src="Media/Project3/Project3_3.png" alt="AC/DC power supply PCB — photo 3">
+          </div>
+          <button class="slider-arrow prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button class="slider-arrow next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+          <div class="slider-nav"></div>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="idx">04</div>
+        <h3>AC/DC Multi-Output Power Supply</h3>
+        <div class="period">Sept 2023</div>
+        <p class="project-intro">For this Electrical Circuits lab project, my team built a power supply that converts 220V AC mains into three regulated DC outputs of 3V, 9V, and 15V while meeting a 3% ripple factor and 250 mA current output target. 
+          It's a foundational build, a bridge rectifier and filtering stage clean up the incoming AC, followed by separate regulation stages for each output rail, all laid out on a custom-designed and hand-etched PCB.</p>
+        <p class="project-intro">We validated the circuit at each stage by doing it first on a breadboard, then on the etched board then using a multimeter to confirm actual output against target voltages. 
+          It's a smaller-scope project than my later embedded work, but it's the one that got me comfortable with the fundamentals: rectification, filtering, and regulation that show up in almost every piece of hardware I've built since.</p>
+        <div class="project-tags">
+          <span class="chip">PCB Design</span><span class="chip">Power Electronics</span><span class="chip">Voltage Regulation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="eyebrow">04 — experience</div>
+    <h2 class="section-title">Experience</h2>
+    <div class="entry">
+      <div class="period">Mar 2026 — May 2026</div>
+      <div>
+        <h3>IT Service Delivery Intern</h3>
+        <div class="org">Ivoclar Vivadent, Inc. · Cabuyao, Laguna</div>
+        <ul>
+          <li>Reduced recurring IT downtime for on-site staff through proactive hardware maintenance and network troubleshooting.</li>
+          <li>Improved IT service request turnaround by organizing, updating, and monitoring tickets in ServiceNow.</li>
+          <li>Assisted in quality assurance checks and identified workflow gaps for system improvements.</li>
+          <li>Developed a Java-based QR/barcode canteen tracking system to automate employee meal access monitoring during the company's facility transition.</li>
+        </ul>
+        <div class="entry-photos">
+          <figure class="entry-photo">
+            <img src="Media/Experience/OJT1_1.jpg" alt="With a fellow OJT trainee on-site at Ivoclar Vivadent">
+            <figcaption>With a fellow OJT trainee on-site at Ivoclar Vivadent</figcaption>
+          </figure>
+          <figure class="entry-photo">
+            <img src="Media/Experience/OJT1_2.jpg" alt="On-site at Ivoclar Vivadent">
+            <figcaption>On-site at Ivoclar Vivadent</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="eyebrow">05 — education</div>
+    <h2 class="section-title">Education</h2>
+    <div class="entry">
+      <div class="period">Aug 2022 — Jul 2026</div>
+      <div>
+        <h3>BS Computer Engineering</h3>
+        <div class="org">National University · Calamba, Laguna</div>
+        <ul>
+          <li>Relevant coursework: Cybersecurity, Embedded Systems, Microprocessors.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="period">Sep 2020 — Aug 2022</div>
+      <div>
+        <h3>Senior High School — IT in Mobile App &amp; Web Development</h3>
+        <div class="org">STI College · Santa Rosa, Laguna</div>
+        <ul>
+          <li>Graduated with Honors.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="margin-top: 46px;">
+      <div class="eyebrow" style="margin-bottom: 18px;">certifications</div>
+      <div class="cert-list">
+        <div class="cert"><div><div class="name">Computer System Servicing NC II</div><div class="issuer">TESDA</div></div><div class="date">Oct 2025</div></div>
+        <div class="cert"><div><div class="name">Generative AI Workshop</div><div class="issuer">Cognizant</div></div><div class="date">Oct 2025</div></div>
+        <div class="cert"><div><div class="name">TOEIC Listening &amp; Reading — 900/990</div><div class="issuer">ETS</div></div><div class="date">Dec 2025</div></div>
+        <div class="cert"><div><div class="name">Safety Officer 2</div><div class="issuer">5M Consultancy and Safety Services (DOLE-Accredited)</div></div><div class="date">Jan 2026</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="eyebrow">06 — contact</div>
+      <h2>Open to hardware, embedded, and IT roles.</h2>
+      <p>Recently finished my degree and looking for opportunities where I can work close to the hardware (Embedded Systems, IoT, Power Electronics, or IT infrastructure.)</p>
+      <div class="contact-links">
+        <a class="btn primary" href="mailto:jkrmanikan@gmail.com">jkrmanikan@gmail.com</a>
+        <a class="btn ghost" href="tel:+639243373183">+63 924 337 3183</a>
+        <a class="btn ghost" href="https://linkedin.com/in/jkrmanikan" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Jarod Kraven Manikan — Santa Rosa, Laguna</span>
+    <span id="year"></span>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
